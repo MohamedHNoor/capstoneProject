@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  /* fonts */
+  --ff-primary: "Lato", sans-serif;
+  --fw-reg: 400;
+  --fw-bold: 900;
+
+  /* colors */
+  --clr-gray: #d3d3d3;
+  --clr-dark: #272a31;
+  --clr-accent: #ec5242;
+
+  /* font size */
+  --fs-h1: 3rem;
+  --fs-h2: 2.25rem;
+  --fs-h3: 1.25rem;
+  --fs-body: 1rem;
+
+  /* background shadow */
+  --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25), 0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--ff-primary);
+  
+}
