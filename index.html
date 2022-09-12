@@ -1,13 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="sass/main.css">
-  <title>Capstone Project</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootsraps -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/162dfb3961.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Capstone Project</title>
+  </head>
+  <body>
+    <header>
+      <div class="mobile">
+        <a href="#home" class="logo">
+          <img src="images/logo.png" alt="logo" />
+        </a>
+        <div class="nav-toggle">
+          <div class="hamburger bar1"></div>
+          <div class="hamburger bar2"></div>
+          <div class="hamburger bar3"></div>
+        </div>
+      </div>
+      <nav>
+        <div class="top-nav">
+          <a href="#">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a href="#"> English </a>
+          <a href="#"> myPage </a>
+          <a href="#"> logout </a>
+        </div>
+        <div class="desktop">
+          <ul class="desktop-nav">
+            <li class="nav-list">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-list">
+              <a class="nav-link" href="#program">Program</a>
+            </li>
+            <li class="nav-list">
+              <a class="nav-link" href="#speaker">Speakers</a>
+            </li>
+            <li class="nav-list">
+              <a class="nav-link" href="#sponsor">Sponsor</a>
+            </li>
+            <li class="nav-list">
+              <a class="nav-link" href="#news">News</a>
+            </li>
+          </ul>
+          <button class="nav-btn btn">CC Compaign</button>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- Hero section -->
+      <section class="hero container-fluid" id="home">
+        <div class="hero-body">
+          <h2 class="hero-med-title">"Hello! Sharing world"</h2>
+          <h1 class="hero-main-title">creative commons global submit 2015</h1>
+          <p class="hero-subtitle">
+            A fun festival where people from more than 80 countries who believe
+            in the value of sharing and openness and create positive change
+            gather and share ideas will be held in Korea in October.
+          </p>
+          <h3 class="vanue">
+            2015.10.14 (Wed) ~ 17 (Sat)
+            <small>@ National Museum of Korea, Art Center Nabi, etc.</small>
+          </h3>
+        </div>
+      </section>
+
+      <!-- program section -->
+      <section class="program container-fluid" id="program">
+        <header class="program-header">
+          <h2 class="program-header-title">Main program</h2>
+          <div class="program-header-title-underline underline"></div>
+        </header>
+        <div class="program-cards">
+          <div class="card1 card">
+            <img src="images/program_icon_01.png" alt="lecture icon" />
+            <h3 class="lecture-titel">Lecture</h3>
+            <p class="lecture-subtitle">
+              Listen to lectures from speakers from around the world and learn
+              about the latest trends in the world.
+            </p>
+          </div>
+          <div class="card2 card">
+            <img src="images/program_icon_02.png" alt="lecture icon" />
+            <h3 class="exhibition-titel">CC Exhibition</h3>
+            <p class="lecture-subtitle">
+              Let's meet the creations of artists from various fields who share
+              the open spirit of CC.
+            </p>
+          </div>
+          <div class="card3 card">
+            <img src="images/program_icon_03.png" alt="lecture icon" />
+            <h3 class="forum-titel">forum</h3>
+            <p class="lecture-subtitle">
+              We have time to share our thoughts and opinions with experts by
+              topic.
+            </p>
+          </div>
+          <div class="card4 card">
+            <img src="images/program_icon_04.png" alt="lecture icon" />
+            <h3 class="workshop-titel">workshop</h3>
+            <p class="lecture-subtitle">
+              You can create your own creations using open source instead of
+              just looking at them.
+            </p>
+          </div>
+          <div class="card5 card">
+            <img src="images/program_icon_05.png" alt="lecture icon" />
+            <h3 class="party-titel">CC party</h3>
+            <p class="lecture-subtitle">
+              Create opportunities to freely network with CC personnel from
+              around the world.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- speakers -->
+      <section class="speakers container-fluid" id="speakers">
+        <header class="feature-header">
+          <h3 class="feature-header-title">Main speaker</h3>
+          <div class="feature-header-underline underline"></div>
+        </header>
+        <div class="speakers-cards">
+          <div class="speakers-card1">
+            <div class="speaker-img">
+              <img src="images/speaker_01.png" alt="speaker image" />
+            </div>
+            <div class="speaker-body">
+              <h3 class="speaker-title"></h3>
+            <p class="speaker-subtitle"></p>
+            <div class="speaker-underline"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer -->
+      <footer>
+        <header class="footer-header">
+          <h3 class="footer-header-title">Partners</h3>
+          <div class="footer-header-underline underline"></div>
+        </header>
+        <div class="footer-partners">
+          <a href="#">
+            <img src="images/mozilla.png" alt="mozilla images">
+          </a>
+          <a href="#">
+            <img src="images/googlekorea.png" alt="mozilla images">
+          </a>
+          <a href="#">
+            <img src="images/naver.png" alt="mozilla images">
+          </a>
+          <a href="#">
+            <img src="images/kakao.png" alt="mozilla images">
+          </a>
+          <a href="#">
+            <img src="images/airbnb.png" alt="mozilla images">
+          </a>
+        </div>
+        <div class="copywrite">
+          <a href="#">
+            <img src="images/footer-logo.png" alt="footer logo">
+          </a>
+          <p class="copywrite-text">2015 Creative Commons Korea. Some Rights Reserved.</p>
+        </div>
+      </footer>
+    </main>
+  </body>
 </html>
