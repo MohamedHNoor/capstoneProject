@@ -166,6 +166,7 @@
     width: 100%;
     background-color: #eee;
   }
+
   .speakers {
     display: grid;
     grid-template-columns: 0.5fr 0.5fr;
@@ -192,6 +193,7 @@
   footer {
     background-color: #eee;
   }
+
   .partner-container {
     display: grid;
     grid-template-columns: repeat(4, 0.5fr);
