@@ -22,9 +22,9 @@
 - visual studio code
 
 ## Author
-- GitHub: https://github.com/MohamedHNoor
-- Twitter: https://twitter.com/MohamedHNoor
-- LinkedIn: https://www.linkedin.com/in/mohamedhnoor/
+- GitHub: [@githubhandle](https://github.com/MohamedHNoor)
+- Twitter: [@twitterhandle](https://twitter.com/MohamedHNoor)
+- LinkedIn: [@linkedinhandle](https://www.linkedin.com/in/mohamedhnoor/)
 
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!

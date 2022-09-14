@@ -10,190 +10,212 @@
       href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap"
       rel="stylesheet"
     />
-    <!-- Bootsraps -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
-      crossorigin="anonymous"
-    />
-    <!-- JavaScript Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-      crossorigin="anonymous"
-    ></script>
     <script
       src="https://kit.fontawesome.com/162dfb3961.js"
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="css/main.css" />
-    <title>Capstone Project</title>
+    <link rel="stylesheet" href="css/desktop.css" />
+    <title>Capstone Project1</title>
   </head>
   <body>
-    <header>
-      <div class="mobile">
-        <a href="#home" class="logo">
-          <img src="images/logo.png" alt="logo" />
+    <header class="desktop-nav-header">
+      <div class="top-nav">
+        <a href="#" class="top-nav-link">
+          <i class="fa-brands fa-facebook-f"></i>
         </a>
-        <div class="nav-toggle">
-          <div class="hamburger bar1"></div>
-          <div class="hamburger bar2"></div>
-          <div class="hamburger bar3"></div>
-        </div>
+        <a href="#" class="top-nav-link">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="#" class="top-nav-link"> English </a>
+        <a href="#" class="top-nav-link"> myPage </a>
+        <a href="#" class="top-nav-link last-item"> logout </a>
       </div>
-      <nav>
-        <div class="top-nav">
-          <a href="#">
-            <i class="fa-brands fa-facebook-f"></i>
+      <nav class="desktop">
+        <div class="desktop-logo">
+          <a href="index.html" class="desk-logo">
+            <img src="images/logo.png" alt="logo" />
           </a>
-          <a href="#">
-            <i class="fa-brands fa-twitter"></i>
-          </a>
-          <a href="#"> English </a>
-          <a href="#"> myPage </a>
-          <a href="#"> logout </a>
         </div>
-        <div class="desktop">
-          <ul class="desktop-nav">
+        <div class="desktop-nav">
+          <ul class="desktop-nav-lists">
             <li class="nav-list">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-list">
-              <a class="nav-link" href="#program">Program</a>
+              <a class="nav-link" href="index.html#program">Program</a>
             </li>
             <li class="nav-list">
-              <a class="nav-link" href="#speaker">Speakers</a>
+              <a class="nav-link" href="index.html#speakers">Speakers</a>
             </li>
             <li class="nav-list">
-              <a class="nav-link" href="#sponsor">Sponsor</a>
+              <a class="nav-link" href="index.html#Sponsors">Sponsor</a>
             </li>
             <li class="nav-list">
-              <a class="nav-link" href="#news">News</a>
+              <a href="">
+                <button class="nav-btn btn">Campaign</button>
+              </a>
             </li>
           </ul>
-          <button class="nav-btn btn">CC Compaign</button>
         </div>
       </nav>
     </header>
-    <main>
-      <!-- Hero section -->
-      <section class="hero container-fluid" id="home">
-        <div class="hero-body">
-          <h2 class="hero-med-title">"Hello! Sharing world"</h2>
-          <h1 class="hero-main-title">creative commons global submit 2015</h1>
-          <p class="hero-subtitle">
-            A fun festival where people from more than 80 countries who believe
-            in the value of sharing and openness and create positive change
-            gather and share ideas will be held in Korea in October.
-          </p>
-          <h3 class="vanue">
-            2015.10.14 (Wed) ~ 17 (Sat)
-            <small>@ National Museum of Korea, Art Center Nabi, etc.</small>
-          </h3>
-        </div>
-      </section>
 
-      <!-- program section -->
-      <section class="program container-fluid" id="program">
-        <header class="program-header">
-          <h2 class="program-header-title">Main program</h2>
-          <div class="program-header-title-underline underline"></div>
-        </header>
-        <div class="program-cards">
-          <div class="card1 card">
-            <img src="images/program_icon_01.png" alt="lecture icon" />
-            <h3 class="lecture-titel">Lecture</h3>
+    <!-- Hero section -->
+    <section class="hero" id="home">
+      <button class="nav-toggle" aria-label="toggle-navigation">
+        <!-- <span class="hamburger"></span> -->
+        <div class="hamburger"></div>
+      </button>
+      <nav class="mobile-nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">about</a>
+          </li>
+          <li class="nav-item">
+            <a href="#program" class="nav-link">program</a>
+          </li>
+          <li class="nav-item">
+            <a href="#speakers" class="nav-link">speakers</a>
+          </li>
+        </ul>
+        <a href="">
+          <button class="nav-btn btn">Campaign</button>
+        </a>
+      </nav>
+      <div class="hero-body">
+        <h2 class="hero-med-title">"Hello! Rugby fans"</h2>
+        <h1 class="hero-main-title">
+          Welcome to the home of Cape Town Rugby 10's
+        </h1>
+        <p class="hero-subtitle">
+          A fun festival where people from all around the world come together to
+          support their teams.
+        </p>
+        <h3 class="venue">3 – 4 FEBRUARY 2023 | ENTRIES OPEN 1 APRIL 2022</h3>
+      </div>
+    </section>
+    <!-- program section -->
+    <section class="section-program" id="program">
+      <header class="program-header">
+        <h2 class="program-header-title">Main Program</h2>
+        <div class="program-header-title-underline underline"></div>
+      </header>
+      <div class="program-cards">
+        <div class="card1 card">
+          <i class="fa fa-desktop screen-icon"></i>
+          <h3 class="lecture-titel work-title">Lecture</h3>
+          <div class="info">
             <p class="lecture-subtitle">
-              Listen to lectures from speakers from around the world and learn
-              about the latest trends in the world.
-            </p>
-          </div>
-          <div class="card2 card">
-            <img src="images/program_icon_02.png" alt="lecture icon" />
-            <h3 class="exhibition-titel">CC Exhibition</h3>
-            <p class="lecture-subtitle">
-              Let's meet the creations of artists from various fields who share
-              the open spirit of CC.
-            </p>
-          </div>
-          <div class="card3 card">
-            <img src="images/program_icon_03.png" alt="lecture icon" />
-            <h3 class="forum-titel">forum</h3>
-            <p class="lecture-subtitle">
-              We have time to share our thoughts and opinions with experts by
-              topic.
-            </p>
-          </div>
-          <div class="card4 card">
-            <img src="images/program_icon_04.png" alt="lecture icon" />
-            <h3 class="workshop-titel">workshop</h3>
-            <p class="lecture-subtitle">
-              You can create your own creations using open source instead of
-              just looking at them.
-            </p>
-          </div>
-          <div class="card5 card">
-            <img src="images/program_icon_05.png" alt="lecture icon" />
-            <h3 class="party-titel">CC party</h3>
-            <p class="lecture-subtitle">
-              Create opportunities to freely network with CC personnel from
-              around the world.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
+              temporibus.
             </p>
           </div>
         </div>
-      </section>
-
-      <!-- speakers -->
-      <section class="speakers container-fluid" id="speakers">
-        <header class="feature-header">
-          <h3 class="feature-header-title">Main speaker</h3>
-          <div class="feature-header-underline underline"></div>
-        </header>
-        <div class="speakers-cards">
-          <div class="speakers-card1">
-            <div class="speaker-img">
-              <img src="images/speaker_01.png" alt="speaker image" />
-            </div>
-            <div class="speaker-body">
-              <h3 class="speaker-title"></h3>
-            <p class="speaker-subtitle"></p>
-            <div class="speaker-underline"></div>
-            </div>
+        <div class="card2 card">
+          <i class="fa-solid fa-coins"></i>
+          <h3 class="exhibition-titel work-title">Exhibition</h3>
+          <div class="info">
+            <p class="lecture-subtitle">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
+              temporibus.
+            </p>
           </div>
         </div>
-      </section>
+        <div class="card3 card">
+          <i class="fa-solid fa-comment-dollar"></i>
+          <h3 class="forum-titel work-title">forum</h3>
+          <div class="info">
+            <p class="lecture-subtitle">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
+              temporibus.
+            </p>
+          </div>
+        </div>
+        <div class="card4 card">
+          <i class="fa-solid fa-chalkboard-user"></i>
+          <h3 class="workshop-titel work-title">workshop</h3>
+          <div class="info">
+            <p class="lecture-subtitle">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
+              temporibus.
+            </p>
+          </div>
+        </div>
+        <div class="card5 card">
+          <i class="fa-solid fa-link"></i>
+          <h3 class="party-titel work-title">party</h3>
+          <div class="info">
+            <p class="lecture-subtitle">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
+              temporibus.
+            </p>
+          </div>
+        </div>
+      </div>
+      <button class="program-btn btn">Join Cape Town 10's Rugby</button>
+    </section>
 
-      <!-- footer -->
-      <footer>
+    <!-- speakers -->
+    <section id="speakers" class="feature">
+      <div class="speaker-title">
+        <h2 class="feature-title">Featured Speakers</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="speakers">
+        <article class="speaker-item">
+          <img src="images/speaker_01.png" alt="speaker image" class="photo" />
+          <div class="speaker-info">
+            <header>
+              <h4 class="name">Yohai Benkler</h4>
+              <p class="title">Professor at Harvard Law School</p>
+            </header>
+            <p class="desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+              sapiente?
+            </p>
+          </div>
+        </article>
+        <button class="show-more">
+          More <span><i class="fas fa-angle-down" aria-hidden="true"></i></span>
+        </button>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <div id="Sponsors" class="footer-partners">
         <header class="footer-header">
           <h3 class="footer-header-title">Partners</h3>
           <div class="footer-header-underline underline"></div>
         </header>
-        <div class="footer-partners">
-          <a href="#">
-            <img src="images/mozilla.png" alt="mozilla images">
+        <div class="partner-container">
+          <a href="#" class="logo-partner">
+            <img src="images/mozilla.png" alt="mozilla images" />
+          </a>
+          <a href="#" class="logo-partner">
+            <img src="images/naver.png" alt="mozilla images" />
           </a>
           <a href="#">
-            <img src="images/googlekorea.png" alt="mozilla images">
+            <img src="images/kakao.png" alt="mozilla images" />
           </a>
-          <a href="#">
-            <img src="images/naver.png" alt="mozilla images">
-          </a>
-          <a href="#">
-            <img src="images/kakao.png" alt="mozilla images">
-          </a>
-          <a href="#">
-            <img src="images/airbnb.png" alt="mozilla images">
+          <a href="#" class="logo-partner">
+            <img src="images/airbnb.png" alt="mozilla images" />
           </a>
         </div>
-        <div class="copywrite">
-          <a href="#">
-            <img src="images/footer-logo.png" alt="footer logo">
-          </a>
-          <p class="copywrite-text">2015 Creative Commons Korea. Some Rights Reserved.</p>
-        </div>
-      </footer>
-    </main>
+      </div>
+      <div class="copywrite">
+        <a href="#">
+          <img class="footer-logo" src="images/logo.png" alt="footer logo" />
+        </a>
+        <p class="copywrite-text">
+          2015 Creative Commons Korea. Some Rights Reserved.
+        </p>
+      </div>
+    </footer>
+    <script src="js/app.js"></script>
   </body>
 </html>
