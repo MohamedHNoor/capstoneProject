@@ -455,6 +455,20 @@ img.footer-logo {
   gap: 40px;
 }
 
+.copywrite-about {
+  display: flex;
+  gap: 28px;
+  padding: 10px;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
+  background: #414246;
+}
+
+.copywrite-text-about {
+  color: #fff;
+}
+
 .copywrite-text {
   color: var(--clr-dark);
 }

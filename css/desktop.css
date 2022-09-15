@@ -229,6 +229,18 @@
     align-items: center;
     width: 80%;
     margin: 0 auto;
+    justify-content: center;
+  }
+
+  .copywrite-about {
+    display: flex;
+    gap: 24rem;
+    padding: 2rem;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    background: #414246;
+    width: 80%;
   }
 
   .copywrite-text-home {
