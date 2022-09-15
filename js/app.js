@@ -78,7 +78,6 @@ function displaySpeakers(speakerItems) {
   </article>`,
   );
   displayItem = displayItem.join('');
-  // console.log(displayItem);
   speakersSection.innerHTML = displayItem;
 }
 
