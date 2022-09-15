@@ -17,6 +17,13 @@
 ## Live Demo
 - https://mohamedhnoor.github.io/capstoneProject/
 
+# WORK FLOW SCREENSHOTS
+![mobile-home-page](./images/mobile-home-page.JPG)
+![mobile-about-page](./images/mobile-about-page.JPG)
+![mobile-menu](./images/mobile-menu.JPG)
+![desktop-home-page](./images/desktop-home-page.JPG)
+![desktop-about-page](./images/desktop-about-page.JPG)
+
 ## Prerequisites
 - computer with internet
 - visual studio code
@@ -33,6 +40,10 @@ Feel free to check the issues page.
 
 ## Show your support
 Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Cindy Shinon Behance for her UI design template
 
 ## 📝 License
 
