@@ -165,6 +165,7 @@ li {
 
 .show-links .bar1 {
   transform: translate(0, 11px) rotate(-45deg);
+  background-color: #fff;
 }
 
 .show-links .bar2 {
@@ -173,6 +174,7 @@ li {
 
 .show-links .bar3 {
   transform: translate(0, -11px) rotate(45deg);
+  background-color: #fff;
 }
 
 .show-links .mobile-nav {
@@ -182,8 +184,7 @@ li {
 .nav-btn {
   border: 3px solid var(--clr-accent);
   color: var(--clr-accent);
-  padding: 3px 6px;
-  border-radius: 0.5rem;
+  padding: 8px 16px;
   text-align: center;
   font-family: var(--ff-primary);
   font-size: 1rem;
@@ -201,7 +202,7 @@ li {
 
 /* hero section */
 .hero {
-  background: url(../images/desk-bg.png);
+  background: url(../images/hero-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -212,7 +213,7 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 5rem;
+  margin-top: 10rem;
 }
 
 .hero-img {
@@ -221,7 +222,6 @@ li {
 
 .hero-subtitle {
   border: 1px solid #fff;
-  box-shadow: var(--bs);
   border-radius: 5px;
   padding: 1rem;
   margin-top: 1rem;
@@ -232,7 +232,7 @@ li {
 .venue {
   color: var(--clr-dark);
   font-weight: var(--fw-bold);
-  padding: 1rem;
+  padding: 1px;
   font-size: 2rem;
   margin: 0;
 }
@@ -365,10 +365,11 @@ li {
 }
 
 /* about page mobile styles */
-.hero {
-  background: url(../images/about_bg_01.png);
-  background-size: contain;
+.hero-about {
+  background: url(../images/mobile_intro_bg.png);
+  background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 .hero-body img {
   width: 350px;
@@ -402,9 +403,11 @@ li {
 
 .ccsubmit-logo {
   border: 1px solid #eee;
-  width: 100%;
+  width: 90%;
   padding: 1rem;
   box-shadow: var(--bs);
+  display: block;
+  margin-inline: auto;
 }
 
 .ps-title {
