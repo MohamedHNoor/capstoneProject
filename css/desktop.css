@@ -1,0 +1,253 @@
+@media screen and (min-width: 768px) {
+  .nav-toggle,
+  .mobile-nav {
+    display: none;
+  }
+
+  .desktop-nav-header {
+    display: flex;
+    flex-direction: column;
+    color: #272a31;
+  }
+
+  .top-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background: #272a31;
+    cursor: pointer;
+  }
+
+  .top-nav-link {
+    color: #fff;
+    padding: 3px;
+  }
+
+  .top-nav .last {
+    margin-right: 11rem;
+  }
+
+  .desktop {
+    display: flex;
+    background-color: #999;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px;
+  }
+
+  .desk-logo img {
+    width: 100px;
+  }
+
+  .desktop-nav-lists {
+    display: flex;
+    gap: 6rem;
+  }
+
+  .nav-list {
+    cursor: pointer;
+  }
+
+  :focus {
+    display: none;
+  }
+
+  .nav-btn {
+    border: 3px solid var(--clr-accent);
+    color: var(--clr-accent);
+    text-align: center;
+    font-family: var(--ff-primary);
+    font-size: 1rem;
+    font-weight: 500;
+    display: block;
+    padding: 8px 16px;
+    margin-right: 15px;
+  }
+
+  /* hero section */
+  .hero {
+    background-image: url(../images/desk-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .hero-body img {
+    width: 90%;
+    display: block;
+  }
+
+  .hero-subtitle {
+    width: 60%;
+    background-color: #fff;
+    display: block;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    border: 1px solid #eee;
+  }
+
+  .venue {
+    font-size: 2.5rem;
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .venu-info {
+    font-size: 1rem;
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+  }
+
+  /* program section */
+  .program-cards {
+    display: grid;
+    grid-template-columns: repeat(5, 0.5fr);
+    width: 80%;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+  }
+
+  .fa,
+  .fa-solid {
+    font-size: 2rem;
+  }
+
+  .title {
+    font-size: 0.75rem;
+  }
+
+  /* speakers section */
+  .feature {
+    margin: 0 auto;
+    width: 100%;
+    background-color: #eee;
+  }
+
+  .speakers {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    width: 80%;
+    margin: 0 auto;
+    gap: 25px;
+  }
+
+  /* about page desktop styles */
+  .about-section {
+    padding: 2rem;
+  }
+
+  .hero-about {
+    background: url(../images/about_bg_01.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .about-hero-underline {
+    width: 53px;
+    height: 16px;
+    border-bottom: 1px solid rgb(239, 81, 60);
+    margin: 20px auto 20px;
+  }
+
+  .paragraph-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .about-subtitle {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .ccsubmit-logo {
+    border: 1px solid #eee;
+    width: 60%;
+    padding: 1rem;
+    display: block;
+    margin-inline: auto;
+  }
+
+  .about-bg-img {
+    width: 60% !important;
+  }
+
+  .previous-submit {
+    padding: 2rem;
+  }
+
+  .previous-images {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+  }
+
+  /* footer */
+  footer {
+    background-color: #eee;
+  }
+
+  .about-footer {
+    background-color: #414246;
+    color: #fff;
+  }
+
+  .logo-partner img {
+    width: 80%;
+  }
+
+  .logo-partner {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .copywrite {
+    display: flex;
+    gap: 19rem;
+    padding: 2rem;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .copywrite-about {
+    display: flex;
+    gap: 24rem;
+    padding: 2rem;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    background: #414246;
+    width: 80%;
+  }
+
+  .copywrite-text-home {
+    color: var(--clr-dark);
+  }
+
+  .copywrite-text-about {
+    color: #fff;
+  }
+}
