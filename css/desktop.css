@@ -208,6 +208,11 @@
     background-color: #eee;
   }
 
+  .about-footer {
+    background-color: #414246;
+    color: #fff;
+  }
+
   .logo-partner img {
     width: 80%;
   }
@@ -219,9 +224,18 @@
 
   .copywrite {
     display: flex;
-    justify-content: space-between;
+    gap: 19rem;
+    padding: 2rem;
     align-items: center;
     width: 80%;
     margin: 0 auto;
+  }
+
+  .copywrite-text-home {
+    color: var(--clr-dark);
+  }
+
+  .copywrite-text-about {
+    color: #fff;
   }
 }
